@@ -6,8 +6,11 @@ This repository contains the public website for [sparehours.dev](https://spareho
 
 - `/` - Spare Hours homepage
 - `/field-notes/` - Field Notes Watch Face
-- `/field-notes/privacy/` - Field Notes privacy policy
 - `/field-notes/support/` - Field Notes support
+- `/tiny-world/` - Tiny World Watch Face
+- `/tiny-world/support/` - Tiny World support
+- `/privacy/` - shared Spare Hours privacy policy
+- `/field-notes/privacy/` - compatibility redirect to the shared privacy policy
 - `/404.html` - custom not-found page
 
 ## Local preview

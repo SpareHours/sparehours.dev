@@ -325,6 +325,10 @@ nav a {
   text-transform: uppercase;
 }
 
+.tiny-scene-gallery {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .philosophy {
   padding-block: var(--space-9);
 }
@@ -387,6 +391,10 @@ nav a {
   margin-bottom: var(--space-4);
   color: var(--field-blue);
   font-size: clamp(4rem, 8vw, 6.5rem);
+}
+
+.tiny-hero h1 {
+  color: var(--sh-workshop-ink);
 }
 
 .field-tagline {
@@ -682,6 +690,10 @@ nav a {
   .detail-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .tiny-scene-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 48rem) {
@@ -743,6 +755,10 @@ nav a {
   .field-hero-visual {
     width: min(100%, 29rem);
     justify-self: center;
+  }
+
+  .tiny-scene-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .availability {
@@ -813,6 +829,10 @@ nav a {
   .watch-gallery {
     grid-template-columns: 1fr;
     gap: var(--space-6);
+  }
+
+  .tiny-scene-gallery {
+    grid-template-columns: 1fr;
   }
 
   .watch-gallery figure {
